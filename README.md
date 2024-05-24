@@ -4,13 +4,13 @@
 
 
 # <center>Entrega de proyecto final</center>
-@Alumno
+@Alumno: Bianca Di Tomaso
 
-@Comision
+@Comision: 53180
 
-@Tutor
+@Tutor: Carla Palermo
 
-@Docente
+@Docente: Anderson Michel Torres
 
 
 ## Tematica del proyecto
@@ -28,7 +28,7 @@ Esta base de datos nos permitirá tener información concreta sobre nuestros cli
 
 ## Diagrama entidad relacion (DER)
 <center>
-<img src="/workspaces/SQL-Trabajo-Final/DER.png" style="width: 100% ; aspect-ratio:16/9">
+<img src="" style="width: 100% ; aspect-ratio:16/9">
 </center>
 ## Listado de tablas y descripcion
 
@@ -47,9 +47,16 @@ Trigger_Actualizar_Telefono:Este trigger actualiza el número de teléfono de un
 Trigger_Suprimir_Pedido: Este trigger elimina automáticamente los detalles de un pedido.
 
 ## Roles y permisos
+Dba: Todos los permisos
+Consultor_Jr. : Permiso de solo lectura
+Consultor_SmS : Permiso de lectura e inserción
+
+Bian@% : con el rol Dba
+Mati@% : con el rol Consultor_Jr.
+giuli@% : con el rol Consultor_SmS
 
 ## Back up de la base de datos
-
+Este back up realiza guardado de estructura, datos, vistas, procedimientos y funciones, eventos, triggers
 ## Herramientas y tecnologias usadas
 Git
 Github
