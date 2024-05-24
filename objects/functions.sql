@@ -1,33 +1,33 @@
 USE panaderia;
 DELIMITER //
-CREATE FUNCTION FN_NOMBRECLIENTE(P_ID INT)
+CREATE FUNCTION FN_nombrecliente(P_id INT)
 RETURNS VARCHAR(50)
 DETERMINISTIC
 BEGIN
 DECLARE NOMBRE VARCHAR(50);
-	SELECT NOMBRECLIENTE INTO NOMBRE FROM CLIENTES WHERE ID_CLIENTES=P_ID;
+	SELECT nombrecliente INTO NOMBRE FROM clientes WHERE id_clientes=P_id;
 RETURN NOMBRE;
 END //
 DELIMITER ; 
-SELECT FN_NOMBRECLIENTE(1);
+SELECT FN_nombrecliente(1);
 
 DELIMITER //
-CREATE FUNCTION FN_DATOSCLIENTES(P_ID INT)
+CREATE FUNCTION FN_DATOSclientes(P_id INT)
 RETURNS VARCHAR(50)
 DETERMINISTIC
 BEGIN
 DECLARE NOMBRE VARCHAR(50);
-	SELECT concat(NOMBRECLIENTE
+	SELECT concat(nombrecliente
 					
                     ,' '
-                    , TELEFONO
+                    , telefono
                     ,' '
-                    ,CALLE
+                    ,calle
                     ,' '
-                    ,NRO
+                    ,nro
                     ,' '
-                    ,CP) INTO NOMBRE FROM CLIENTES WHERE ID_CLIENTES=P_ID;
+                    ,cp) INTO NOMBRE FROM clientes WHERE id_clientes=P_id;
 RETURN NOMBRE;
 END //
 DELIMITER ; 
-SELECT FN_DATOSCLIENTES(1);
+SELECT FN_DATOSclientes(1);
