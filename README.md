@@ -35,12 +35,17 @@ Esta base de datos nos permitirá tener información concreta sobre nuestros cli
 ## Estructura e ingesta de datos
 
 ## Objetos de la base de datos
+FN_nombrecliente
 
 ## Roles y permisos
 
 ## Back up de la base de datos
 
 ## Herramientas y tecnologias usadas
+Git
+Github
+MySql Workbench 8.0
+Word
 
 ## Como levantar el proyecto en CodeSpaces GitHub
 * env: Archivo con contraseñas y data secretas
