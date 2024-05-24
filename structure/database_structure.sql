@@ -1,7 +1,7 @@
 
-DROP DATABASE panaderia;
+DROP DATABASE IF EXISTS panaderia;
 -- DROP DATABASE panaderia;
-CREATE DATABASE panaderia;
+CREATE DATABASE IF NOT EXISTS panaderia;
 USE panaderia;
 -- drop schema if exists panaderia;
 CREATE TABLE la_linda(
