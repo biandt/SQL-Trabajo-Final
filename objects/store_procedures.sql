@@ -1,3 +1,4 @@
+USE panaderia;
 DELIMITER $$
 
 CREATE PROCEDURE AgregarPedido(
