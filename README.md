@@ -13,39 +13,23 @@
 @Docente
 
 
-
----
-
-### **Consignas:**
-- La base de datos debe contener al menos:
-    * ~ 15 tablas, entre las cuales debe haber al menos 1 tabla de hechos,  2 tablas transaccionales.
-    * ~ 5 vistas.
-    * ~ 2 stored procedure.
-    * ~ 2  trigger.
-    * ~ 2 funciones
-    
-- El documento debe contener:
-    - Introducción
-    - Objetivo
-    - Situación problemática
-    - Modelo de negocio
-    - Diagrama de entidad relació
-    - Listado de tablas con descripción de estructura (columna,descripción, tipo de datos, tipo de clave)
-    - Scripts de creación de cada objeto de la base de datos
-    - Scripts de inserción de datos
-    - Informes generados en base a la información de la base
-    - Herramientas y tecnologías usadas
-
-
-
----
-
 ## Tematica del proyecto
+El siguiente trabajo está enfocado en la Panadería "La Linda", una pyme que distribuye sus productos por mayor a las panaderías de una zona.
+El comercio experimentó un gran crecimiento en su tamaño, clientes y facturación. Necesita mantener en una base de datos la información de todos sus clientes y productos. 
+
+Tablas de hechos: clientes, pedidos, productos, vendedores
+Tablas dimensión: contacto de clientes
+
+El objetivo principal es la gestión y control de pedidos por cliente en un mes.
+Esta base de datos nos permitirá tener información concreta sobre nuestros clientes, vendedores y productos. Además, en un futuro lograr reducir los plazos de entrega para nuestros clientes.
+
 
 ## Modelo de negocio
 
 ## Diagrama entidad relacion (DER)
-
+<center>
+<img src="/workspaces/SQL-Trabajo-Final/DER.png" style="width: 100% ; aspect-ratio:16/9">
+</center>
 ## Listado de tablas y descripcion
 
 ## Estructura e ingesta de datos
