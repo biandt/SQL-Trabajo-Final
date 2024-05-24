@@ -7,45 +7,45 @@ CREATE TABLE LOG_CAMBIOS (
 );
 
 CREATE TRIGGER Trigger_Agregar_Pedido
-AFTER INSERT ON PEDIDOS
+AFTER INSERT ON pedidos
 FOR EACH ROW
 
     INSERT INTO LOG_CAMBIOS (TABLA_AFECTADA, OPERACION_REALIZADA)
-    VALUES ('PEDIDOS', 'Inserción de nuevo pedido');
+    VALUES ('pedidos', 'Inserción de nuevo pedido');
     
 CREATE TRIGGER Trigger_Agregar_Telefono
-AFTER UPDATE ON CLIENTES
+AFTER UPDATE ON clientes
 FOR EACH ROW
 
     INSERT INTO LOG_CAMBIOS (TABLA_AFECTADA, OPERACION_REALIZADA)
-    VALUES ('CLIENTES', 'Actualización de teléfono de cliente');
+    VALUES ('clientes', 'Actualización de teléfono de cliente');
 
 CREATE TRIGGER Trigger_Eliminar_Pedido
-AFTER DELETE ON PEDIDOS
+AFTER DELETE ON pedidos
 FOR EACH ROW
 
     INSERT INTO LOG_CAMBIOS (TABLA_AFECTADA, OPERACION_REALIZADA)
-    VALUES ('PEDIDOS', 'Eliminación de pedido');
+    VALUES ('pedidos', 'Eliminación de pedido');
 
 
 CREATE TRIGGER Trigger_Actualizar_Pedido
-AFTER INSERT ON PEDIDOS
+AFTER INSERT ON pedidos
 FOR EACH ROW
 
-    UPDATE DETALLEPEDIDOS
-    SET TOTAL = CalcularTotalPedido(NEW.ID_PEDIDO)
-    WHERE ID_PEDIDO = NEW.ID_PEDIDO;
+    UPDATE detallepedidos
+    SET total = CalcularTotalPedido(NEW.id_pedido)
+    WHERE id_pedido = NEW.id_pedido;
 
 CREATE TRIGGER Trigger_Actualizar_Telefono
-AFTER UPDATE ON CLIENTES
+AFTER UPDATE ON clientes
 FOR EACH ROW
 
     INSERT INTO LOG_CAMBIOS (TABLA_AFECTADA, OPERACION_REALIZADA)
-    VALUES ('CLIENTES', 'Actualización de teléfono de cliente');
+    VALUES ('clientes', 'Actualización de teléfono de cliente');
 
 CREATE TRIGGER Trigger_Suprimir_Pedido
-AFTER DELETE ON PEDIDOS
+AFTER DELETE ON pedidos
 FOR EACH ROW
 
     INSERT INTO LOG_CAMBIOS (TABLA_AFECTADA, OPERACION_REALIZADA)
-    VALUES ('PEDIDOS', 'Suprimir pedido');
+    VALUES ('pedidos', 'Suprimir pedido');
