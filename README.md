@@ -35,7 +35,16 @@ Esta base de datos nos permitirá tener información concreta sobre nuestros cli
 ## Estructura e ingesta de datos
 
 ## Objetos de la base de datos
-FN_nombrecliente
+fn_nombrecliente:
+fn_datosclientes:
+AgregarPedido:
+ActualizarTelefonoCliente:
+Trigger_Agregar_Pedido:
+Trigger_Agregar_Telefono:
+Trigger_Eliminar_Pedido:
+Trigger_Actualizar_Pedido:
+Trigger_Actualizar_Telefono:
+Trigger_Suprimir_Pedido: 
 
 ## Roles y permisos
 
