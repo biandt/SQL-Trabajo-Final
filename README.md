@@ -35,16 +35,16 @@ Esta base de datos nos permitirá tener información concreta sobre nuestros cli
 ## Estructura e ingesta de datos
 
 ## Objetos de la base de datos
-fn_nombrecliente:
-fn_datosclientes:
-AgregarPedido:
-ActualizarTelefonoCliente:
-Trigger_Agregar_Pedido:
-Trigger_Agregar_Telefono:
-Trigger_Eliminar_Pedido:
-Trigger_Actualizar_Pedido:
-Trigger_Actualizar_Telefono:
-Trigger_Suprimir_Pedido: 
+fn_nombrecliente: La función fue creada para conocer el nombre de nuestros clientes 
+fn_datosclientes: con el fin de obtener más detalles de nuestros clientes, creamos la función con los datos de nuestros clientes 
+AgregarPedido: Este procedimiento permitirá insertar un nuevo pedido en la base de datos.
+ActualizarTelefonoCliente: Este procedimiento actualizará el número de teléfono de un cliente dado su ID.
+Trigger_Agregar_Pedido: Este trigger actualiza automáticamente el total de un pedido.
+Trigger_Agregar_Telefono: Este trigger actualiza el número de teléfono de un cliente en la tabla de clientes.
+Trigger_Eliminar_Pedido: Este trigger elimina automáticamente el total de un pedido.
+Trigger_Actualizar_Pedido: Este trigger actualiza automáticamente el total de un pedido.
+Trigger_Actualizar_Telefono:Este trigger actualiza el número de teléfono de un cliente en la tabla de clientes.
+Trigger_Suprimir_Pedido: Este trigger elimina automáticamente los detalles de un pedido.
 
 ## Roles y permisos
 
