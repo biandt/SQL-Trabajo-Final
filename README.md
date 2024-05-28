@@ -39,9 +39,9 @@ Seguimiento de ventas y facturación: Aunque no hay una tabla explícita para la
 
 ## Diagrama entidad relacion (DER)
 <center>
-<img src="" style="width: 100% ; aspect-ratio:16/9">
+<img src="![alt text](DER.png) " style="width: 100% ; aspect-ratio:16/9">
 </center>
-![alt text](DER.png)
+
 ## Listado de tablas y descripcion
 
 ## Estructura e ingesta de datos
