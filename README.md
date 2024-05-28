@@ -39,9 +39,9 @@ Gestión de proveedores: La tabla la_linda sugiere que la panadería puede tener
 
 ## Diagrama entidad relacion (DER)
 <center>
-<img src="https://raw.githubusercontent.com/biandt/SQL-Trabajo-Final/main/DER.png" style="width: 100% ; aspect-ratio:16/9">
+<img src="" style="width: 100% ; aspect-ratio:16/9">
 </center>
-
+![alt text](image.png)
 ## Listado de tablas y descripcion
 
 ## Estructura e ingesta de datos
