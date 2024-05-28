@@ -41,7 +41,7 @@ Gestión de proveedores: La tabla la_linda sugiere que la panadería puede tener
 <center>
 <img src="/workspaces/SQL-Trabajo-Final/DER.png" style="width: 100% ; aspect-ratio:16/9">
 </center>
-![alt text](image.png)
+
 
 
 ## Listado de tablas y descripcion
