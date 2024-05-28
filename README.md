@@ -25,11 +25,23 @@ Esta base de datos nos permitirá tener información concreta sobre nuestros cli
 
 
 ## Modelo de negocio
+Una panadería con un sistema de gestión de pedidos y clientes.
+
+Venta de productos de panadería: La empresa parece estar vendiendo productos de panadería, ya que hay una tabla llamada productos que almacena información sobre los productos que ofrece la panadería, como nombre y precio.
+
+Gestión de pedidos: El sistema está diseñado para gestionar pedidos de clientes. La tabla pedidos almacena información sobre los pedidos realizados, incluidos los detalles como el cliente que realiza el pedido, el vendedor asignado al pedido, los productos pedidos y la cantidad solicitada.
+
+Registro de clientes: El sistema permite el registro y seguimiento de clientes. La tabla clientes almacena información sobre los clientes, incluidos detalles como nombre, teléfono y dirección.
+
+Gestión de proveedores: La tabla la_linda sugiere que la panadería puede tener proveedores asociados, ya que almacena información sobre empresas o proveedores externos. Esto puede ser importante para el abastecimiento de ingredientes y suministros para la panadería.
+
+Seguimiento de ventas y facturación: Aunque no hay una tabla explícita para las ventas, el sistema podría utilizar la tabla detallepedidos para calcular el total de ventas y generar facturas para los clientes.
 
 ## Diagrama entidad relacion (DER)
 <center>
 <img src="" style="width: 100% ; aspect-ratio:16/9">
 </center>
+![alt text](DER.png)
 ## Listado de tablas y descripcion
 
 ## Estructura e ingesta de datos
