@@ -35,7 +35,7 @@ Registro de clientes: El sistema permite el registro y seguimiento de clientes. 
 
 Gestión de proveedores: La tabla la_linda sugiere que la panadería puede tener proveedores asociados, ya que almacena información sobre empresas o proveedores externos. Esto puede ser importante para el abastecimiento de ingredientes y suministros para la panadería.
 
-Seguimiento de ventas y facturación: Aunque no hay una tabla explícita para las ventas, el sistema podría utilizar la tabla detallepedidos para calcular el total de ventas y generar facturas para los clientes.
+
 
 ## Diagrama entidad relacion (DER)
 <center>
